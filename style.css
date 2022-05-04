@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
+    min-height: 100vh;
     font-family: Roboto, sans-serif;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
     font-size: 24px;
     color: #f9faf8;
-    padding: 16px;
+    flex: 1;
 }
 
 .header-links {
@@ -21,8 +26,42 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 20px;
     list-style-type: none;
     font-size: 18px;
 }
 
+.first-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.awesome-column {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main-image {
+    border: 1px;
+    width: 300px;
+    background: grey;
+}
+
+.second-section {
+    background: blue;
+    flex: 1;
+}
+
+.third-section {
+    background: gray;
+    flex: 1;
+}
