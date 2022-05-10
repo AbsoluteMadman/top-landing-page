@@ -2,9 +2,9 @@
 
 body {
     background-color: white;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin: 0;
     min-height: 100vh;
     font-family: Roboto, sans-serif;
@@ -42,7 +42,7 @@ h2 {
     font-size: 24px;
     color: #f9faf8;
     flex: 1;
-    padding: 0px 250px;
+    padding: 0px 250px 50px 250px;
 }
 
 .header-links {
@@ -95,27 +95,59 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .four-boxes {
     display: flex;
+    justify-content: center;
     list-style-type: none;
+    gap: 50px;
+    padding: 0px 300px;
+}
+
+.box-plus-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882f6;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+.under-box {
+    color: #1f2937;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
 }
 
 .third-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 36px;
     background: #e5e7eb;
     flex: 1;
+    padding: 100px 300px 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-attrib {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .footer {
