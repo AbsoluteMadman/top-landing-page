@@ -36,13 +36,20 @@ h2 {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
+}
+
+.header-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 24px;
     font-weight: 600;
     color: #f9faf8;
-    padding: 20px 230px 100px 230px;
+    padding: 20px 0px 100px 0px;
+    min-width: 950px;
 }
 
 .header-links {
@@ -60,10 +67,15 @@ h2 {
 .first-section {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex: 1;
-    padding: 0px 230px 100px 230px;
+    padding: 0px 0px 100px 0px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 950px;
     gap: 50px;
 }
 
